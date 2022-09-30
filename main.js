@@ -2,7 +2,7 @@ var SpeechRecognition = window.webkitSpeechRecognition
 var recognition = new SpeechRecognition()
 
 function start() {
-    document.getElementById("textbox").innreHTML = ""
+    document.getElementById("textbox").innerHTML = ""
     recognition.start()
 }
 
